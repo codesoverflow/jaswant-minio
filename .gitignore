@@ -1,0 +1,3 @@
+#https://stackoverflow.com/questions/23301107/how-can-i-include-only-specific-folders-in-git-using-gitignore/23301552
+# Ignore everything in repository root 
+/config.php
