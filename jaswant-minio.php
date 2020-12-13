@@ -11,6 +11,15 @@ License: GPL2
 
 //require_once 'config.php';
 
+
+$isMinioEnabled = defined("MINIO_CREDENTIALS");
+
+if(!$isMinioEnabled) {
+	return ;
+}
+
+$credentials = MINIO_CREDENTIALS;
+
 $key = $credentials['key'];
 $secret = $credentials['secret'];
 $endpoint = $credentials['endpoint'];
