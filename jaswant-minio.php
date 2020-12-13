@@ -9,7 +9,7 @@ Author URI: https://bhajandiary.com
 License: GPL2
 */
 
-require_once 'config.php';
+//require_once 'config.php';
 
 $key = $credentials['key'];
 $secret = $credentials['secret'];
