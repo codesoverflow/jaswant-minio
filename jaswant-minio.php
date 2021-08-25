@@ -39,13 +39,17 @@ if(is_admin()) {
    
 /*Capture uploaded image filter and upload these to minio server*/
 add_filter('wp_update_attachment_metadata', 
-'wp_update_attachment_metadata_jm_minio', 10, 3);
+'wp_update_attachment_metadata_jm_minio', 12, 3);
 
 
 
 function wp_update_attachment_metadata_jm_minio($data, $postarr) {
-    //print_r($data); die;
+    
+   if(count($data)) {
+
     uploadAttachmentsMinio($data);
+
+   }
 
     return $data;
 }

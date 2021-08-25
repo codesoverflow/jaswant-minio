@@ -1,5 +1,6 @@
 <?php
-require_once 'aws/aws-autoloader.php';
+//require_once 'aws-old/aws-autoloader.php';
+ require_once 'aws/autoload.php';
 date_default_timezone_set('America/Los_Angeles');
 
 

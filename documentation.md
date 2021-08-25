@@ -16,3 +16,8 @@ https://docs.min.io/docs/generate-let-s-encypt-certificate-using-concert-for-min
 # Download path
 
 scp root@bhajandiary.com:/opt/running_code/google_drive_upload_php/config/upload/db-bhajandiary-2020-12-11-08:13:34.sql ./
+
+
+# Minio file upload using PHP AWS
+
+https://docs.min.io/docs/how-to-use-aws-sdk-for-php-with-minio-server.html
